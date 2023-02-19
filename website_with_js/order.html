@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="order.css">
+    <script src="order.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bitter:wght@400;500;600&family=Overpass:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+  <nav>
+    <ul>
+        <li><h1 style="font-size: 35px; float: left; font-family: 'Luckiest Guy', cursive;">FOOD<span style="color: #FEBC3F;">KA<span></h1></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Catalog</a></li>
+        <li style="float:right"><a class="active" href="order.html">Order Now</a></li>
+      </ul>
+    </nav>
+    
+<div class="c1">
+  <div class="card">
+    <img src="biriyani1.png" alt="" width="260px" height="240px">
+    <div class="container">
+      <h2><b>Biriyani</b></h2> 
+    </div>
+      <p> &#8360; 120</p>
+    <div class="qty"><p>QTY :</p><input type="number" name="" class="num"></div>
+  </div>
+  <div class="card">
+    <img src="noodles.png" alt="" width="300px" height="240px">
+    <div class="container">
+      <h2><b>Noodles</b></h2> 
+    </div>
+      <p> &#8360; 100</p>
+     <div class="qty"><p>QTY :</p><input type="number" name="" class="num"></div>
+   
+  </div>
+  <div class="card">
+    <img src="sand.png" alt=""  width="300px" height="240px">
+    <div class="container">
+      <h2><b>Sandwich</b></h2> 
+    </div>
+      <p> &#8360; 60</p>
+       <div class="qty"><p>QTY :</p><input type="number" name="" class="num"></div>
+   
+  </div>
+  <div class="card">
+    <img src="pizzza.png" alt="" width="300px" height="240px">
+    <div class="container">
+      <h2><b>Pizza</b></h2> 
+    </div>
+      <p> &#8360; 200</p>
+     <div class="qty"><p>QTY :</p><input type="number" name="" class="num"></div>
+  </div>
+  </div>
+ <button class="btn" onclick="calculate()">Claculate </button>
+
+ <h1 style="font-size: 35px; font-family: 'Luckiest Guy', cursive; color: #000000;"> Your Bill</h1>
+ <div class="h">
+ <h2 id="biriyani"> </h2>
+ <h2 id="Noodles"></h2>
+ <h2 id="Sandwich"> </h2>
+ <h2 id="pizza"> </h2>
+</div>
+ <h1 id="total" style="margin-left: 35%;"></h1>
+ <button onclick="paybill()" class="pbtn">Pay bill</button>
+</body>
+</html>

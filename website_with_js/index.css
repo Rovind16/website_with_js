@@ -1,0 +1,205 @@
+body{
+    background-color: #FEF0BF;
+}
+html {
+  scroll-behavior: smooth;
+}
+.h1{
+font-family: 'Inconsolata', monospace;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    overflow: hidden;
+  }
+  
+  li {
+    margin-left: 2%;
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 40px 60px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #FEBC3F;
+  }
+  .c1{
+    margin-top: 1%;
+    display: flex;
+  }
+  .c11{
+    width: 45%;
+    margin-left: 8%;
+    margin-top: 4%;
+ 
+  }
+  .c22{
+    margin-left: 1%;
+  }
+
+.btn {
+  background:  #FEBC3F;
+  border: 1px solid #FEBC3F;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.btn:hover,
+.btn-24:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FEBC3F;
+}
+.bt{
+  background-color: #FEBC3F;
+  color: white;
+}
+.btn-24:active {
+  opacity: .5;
+}
+.c2{
+  margin-top: 15%;
+  display: flex;
+}
+.c23{
+  margin-top: 8%;
+}
+.c3{
+  display: flex;
+  margin-top: 6%;
+}
+.card {
+  margin-left: 5%;
+  background-color: white;
+  width: 562px;
+  height: 300px;
+  transition: 0.3s;
+}
+p{
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Bitter', serif;
+  font-family: 'Overpass', sans-serif;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.c32{
+  margin-left: 25%;
+  margin-top: 5%;
+  position: absolute;
+  display: flex;
+}
+.c33{
+  margin-left: 32%;
+  width: 50%;
+  height: 450px;
+  background-color: #FEBC3F;
+}
+.card img{
+  margin-top: 4%;
+  margin-left: 4%;
+  border-radius: 30px;
+}
+.para{
+  margin-left: 6%;
+  margin-right: 6%;
+  font-size: 23px;
+}
+.customer{
+  display: flex;
+}
+footer{
+  background-color: black;
+  height: 250px;
+}
+.f{
+  margin-left: 8%;
+  display: flex;
+}
+.f2{
+  margin-left: 18%;
+  margin-top: 1%;
+}
+.f3{
+  margin-left: 18%;
+  margin-top: 1%;
+}
+.f4{
+  margin-left: 18%;
+  margin-top: 1%;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+
+
+h1 {
+  transform: scale(0.94);
+  animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+}
+@keyframes scale {
+  100% {
+    transform: scale(1);
+  }
+}
+
+span {
+  opacity: 0;
+  filter: blur(4px);
+}
+
+span:nth-child(1) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(2) {
+  animation: fade-in 0.8s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(3) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(4) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(5) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(6) {
+  animation: fade-in 0.8s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(7) {
+  animation: fade-in 0.8s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+@keyframes fade-in {
+  100% {
+    opacity: 1;
+    filter: blur(0);
+  }
+}
+  
+  
+  
